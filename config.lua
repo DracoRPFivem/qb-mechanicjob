@@ -2,7 +2,7 @@ Config = {}
 
 -- **** IMPORTANT ****
 -- UseTarget should only be set to true when using qb-target
-Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
+Config.UseTarget = false
 Config.Targets = {}
 
 Config.AttachedVehicle = nil
@@ -77,7 +77,7 @@ Config.Businesses = {
 
 Config.Plates = {
     [1] = {
-        coords = vector4(-340.95, -128.24, 39, 160.0),
+        coords = vector4(-6.84, -1674.71, 29.83, 18.21),
         boxData = {
             heading = 340,
             length = 5,
@@ -87,7 +87,7 @@ Config.Plates = {
         AttachedVehicle = nil,
     },
     [2] = {
-        coords = vector4(-326.78, -144.82, 39.06, 70),
+        coords = vector4(-10.83, -1676.55, 29.83, 11.55),
         boxData = {
             heading = 249,
             length = 6.5,
@@ -99,10 +99,10 @@ Config.Plates = {
 }
 
 Config.Locations = {
-    ["exit"] = vector3(-339.04, -135.53, 39),
-    ["duty"] = vector3(-323.39, -129.6, 39.01),
-    ["stash"] = vector3(-319.49, -131.9, 38.98),
-    ["vehicle"] = vector4(-370.51, -107.88, 38.35, 72.56),
+    ["exit"] = vector3(-5.23, -1668.84, 29.48),
+    ["duty"] = vector3(-14.14, -1663.14, 29.48),
+    ["stash"] = vector3(-2.45, -1658.22, 29.48),
+    ["vehicle"] = vector4(-31.66, -1675.15, 29.49, 134.16),
 }
 
 Config.Vehicles = {
