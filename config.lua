@@ -77,7 +77,7 @@ Config.Businesses = {
 
 Config.Plates = {
     [1] = {
-        coords = vector4(-6.84, -1674.71, 29.83, 18.21),
+        coords = vector4(829.93, -805.88, 26.33, 269.31),
         boxData = {
             heading = 340,
             length = 5,
@@ -87,7 +87,7 @@ Config.Plates = {
         AttachedVehicle = nil,
     },
     [2] = {
-        coords = vector4(-10.83, -1676.55, 29.83, 11.55),
+        coords = vector4(830.76, -813.03, 26.33, 271.6),
         boxData = {
             heading = 249,
             length = 6.5,
@@ -99,10 +99,10 @@ Config.Plates = {
 }
 
 Config.Locations = {
-    ["exit"] = vector3(-5.23, -1668.84, 29.48),
-    ["duty"] = vector3(-14.14, -1663.14, 29.48),
-    ["stash"] = vector3(-2.45, -1658.22, 29.48),
-    ["vehicle"] = vector4(-25.54, -1682.36, 29.41, 107.63),
+    ["exit"] = vector3(822.27, -811.49, 26.25),
+    ["duty"] = vector3(834.27, -822.88, 26.33),
+    ["stash"] = vector3(838.92, -825.89, 26.33),
+    ["vehicle"] = vector4(841.86, -813.33, 26.31, 3.87),
 }
 
 Config.Vehicles = {
